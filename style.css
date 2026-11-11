@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #3E2C23;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #3E2C23;
+}
+
+.bouton {
+    background-color: #C8A27A;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+}
+
+.bouton-2 {
+    border: 2px solid #C8A27A;
+    color: #3E2C23;
+    padding: 8px 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #f9f6f2;
+}
+
+.bloc-flex {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.inverse {
+    flex-direction: row-reverse;
+}
+
+.services {
+    background-color: #f9f6f2;
+}
+
+.carte {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #eee;
+}
+
+.temoignages {
+    background-color: #f9f6f2;
+}
+
+.avis {
+    background-color: white;
+    padding: 20px;
+}
+
+footer {
+    background-color: #3E2C23;
+    color: white;
+    padding: 40px 20px;
+}
+
+footer h2 {
+    text-align: left;
+}
+
+input, textarea {
+    width: 250px;
+    padding: 8px;
+}

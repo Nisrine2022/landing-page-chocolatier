@@ -3,46 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></landing-page-chocolatier></title>
+    <title>Clara Lenoir Photographie</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-<h1>Nom Studio</h1> 
-<p>Clara Lenoir Photographie</p>
+
+    <header>
+        <img src="logo (1).png" alt="Logo" width="150">
         <nav>
             <ul>
-                <li><a href="#">Phrase Accroche</a></li>
-                <li><a href="#">Texte Appel Action</a></li>
-                <li><a href="#">Cta Principal</a></li>
-                <li><a href="#">Cta Secondaire</a></li>
+                <li><a href="#promesse">Promesse</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#realisations">Réalisations</a></li>
+                <li><a href="#contact" class="bouton">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="intro">
-            <h3>Identite Visuelle</h3>
+        <section class="hero">
+            <div>
+                <h1>Clara Lenoir Photographie</h1>
+                <p>Capturer l’émotion, révéler la beauté du moment</p>
+                <a href="#contact" class="bouton">Réserver une séance</a>
+                <a href="#realisations" class="bouton-2">Voir mes réalisations</a>
+            </div>
+            <div>
+                <img src="nicolas-ladino-silva-o2DVsV2PnHE-unsplash.jpg" alt="Photographe" width="400">
+            </div>
         </section>
 
-        <article>
-            <h2>Article 1</h2>
-        </article>
+        <section id="promesse" class="promesse">
+            <h2>Une approche humaine et poétique pour des instants figés à jamais</h2>
+            <p>Chaque séance est pensée comme une parenthèse hors du temps pour capturer votre authenticité.</p>
+            
+            <div class="bloc-flex">
+                <img src="praise-judah-KHQJf0Gq3RA-unsplash (1).jpg" alt="Événement" width="350">
+                <div>
+                    <ul>
+                        <li>Une approche humaine et bienveillante, pour des photos naturelles et pleines de vie</li>
+                        <li>Un savoir-faire technique au service de la créativité</li>
+                        <li>Des retouches subtiles pour un rendu à la fois professionnel et authentique</li>
+                        <li>Une flexibilité totale sur les lieux et les styles de prise de vue</li>
+                    </ul>
+                    <a href="#contact" class="bouton">Réserver une séance</a>
+                </div>
+            </div>
+        </section>
 
-        <article class="featured">
-            <h2>Article 2</h2>
-            <h3>Sous-titre de l'article en vedette</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, nesciunt.</p>
-        </article>
+        <section id="services" class="services">
+            <h2>Services proposés</h2>
+            <div class="bloc-flex">
+                
+                <article class="carte">
+                    <img src="nathanael-desmeules-r5GDJ0V_4D8-unsplash.jpg" alt="Sport" width="250">
+                    <h3>Evénements et reportages</h3>
+                    <p>Des photos spontanées et authentiques pour immortaliser vos événements artistiques, sportifs ou familiaux avec sensibilité et créativité.</p>
+                    <a href="#contact" class="bouton">Réserver une séance</a>
+                </article>
 
-        <aside>
-            <h3 class="publicite-title">Publicité</h3>
-            <div class="publicite-content">Publicité ici</div>
-        </aside>
+                <article class="carte">
+                    <img src="alvaro-cvg-mW8IZdX7n8E-unsplash (1).jpg" alt="Mariage" width="250">
+                    <h3>Photographie de mariage</h3>
+                    <p>Des clichés sincères et élégants qui retracent avec authenticité chaque instant de votre journée exceptionnelle.</p>
+                    <a href="#contact" class="bouton">Réserver une séance</a>
+                </article>
+
+                <article class="carte">
+                    <img src="colin-lloyd-UOBgu1hEj0o-unsplash (1).jpg" alt="Studio" width="250">
+                    <h3>Shooting professionnel</h3>
+                    <p>Des photos de qualité pour vos profils, sites web et supports de communication. Mettez votre image au service de vos projets.</p>
+                    <a href="#contact" class="bouton">Réserver une séance</a>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="realisations" class="realisations">
+            <h2>Réalisations</h2>
+
+            <div class="bloc-flex">
+                <img src="mariage.png" alt="Mariage" width="350">
+                <div>
+                    <h3>Mariage d’Élodie & Maxime</h3>
+                    <p>Reportage photo complet, des préparatifs à la soirée, capturant les émotions et les petits détails d’une journée inoubliable.</p>
+                </div>
+            </div>
+
+            <div class="bloc-flex inverse">
+                <img src="portraits-lumiere.png" alt="Portrait" width="350">
+                <div>
+                    <h3>Portraits en lumière naturelle</h3>
+                    <p>Une série de portraits réalisés en extérieur, jouant avec la lumière du matin pour un rendu doux et poétique.</p>
+                </div>
+            </div>
+
+            <div class="bloc-flex">
+                <img src="corporate-novatech (1).png" alt="Entreprise" width="350">
+                <div>
+                    <h3>Corporate – Équipe NovaTech</h3>
+                    <p>Shooting professionnel pour la communication interne et externe de l’entreprise, avec une mise en scène moderne et dynamique.</p>
+                </div>
+            </div>
+
+            <div class="bloc-flex inverse">
+                <img src="voyage-islande (1).png" alt="Islande" width="350">
+                <div>
+                    <h3>Voyage en Islande</h3>
+                    <p>Paysages majestueux, contrastes puissants et jeux de lumière au cœur des terres islandaises.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="temoignages">
+            <h2>Témoignages</h2>
+            <div class="bloc-flex">
+                
+                <div class="avis">
+                    <p>"Les photos de notre mariage sont magnifiques ! Clara a su saisir les émotions avec beaucoup de sensibilité. Chaque image raconte une histoire."</p>
+                    <img src="mariage.png" alt="Amélie" width="50">
+                    <strong>Amélie - Mariage</strong>
+                </div>
+
+                <div class="avis">
+                    <p>"Un super moment passé en séance ! Clara met à l’aise et sait diriger sans forcer. Résultat : des portraits naturels et percutants."</p>
+                    <img src="corporate-novatech (1).png" alt="Julien" width="50">
+                    <strong>Julien - Portrait professionnel</strong>
+                </div>
+
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <a href="#">© 2023 MonSiteWeb.com</a>
+    <footer id="contact">
+        <div class="bloc-flex">
+            <div>
+                <h2>Prêts à travailler ensemble ?</h2>
+                <p>Une idée, un projet, une envie de collaboration ? Contactez-nous, nous serons ravis d’en discuter et de voir comment avancer ensemble.</p>
+                <p>Laissez votre contact téléphonique et je vous rappellerai.</p>
+            </div>
+
+            <form>
+                <input type="text" placeholder="Nom"><br><br>
+                <input type="tel" placeholder="Téléphone"><br><br>
+                <input type="email" placeholder="Email"><br><br>
+                <textarea placeholder="Message"></textarea><br><br>
+                <button type="submit" class="bouton">Envoyer</button>
+            </form>
+        </div>
     </footer>
+
 </body>
 </html>
+
+    
 
